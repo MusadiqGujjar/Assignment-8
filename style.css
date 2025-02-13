@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(243, 242, 235);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: #000000c9;
+    overflow: hidden;
+    padding: 4px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 14px 95px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(16, 123, 0);
+    transform: scaleX(0);
+    transform-origin: bottom;
+    transition: transform 0.3s ease-in-out;
+}
+.navbar a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+span{
+    color: #108a07;
+    font-size: 110%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo{
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-family:'Times New Roman', Times, serif
+}
+
+.container{
+    column-count: 3;
+    column-gap: 30px;
+    column-rule: 3px solid #b8b4af;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: left;
+    padding: 0px 0px 0px 20px;
+}
+
+.container img{
+    margin: 0px 0px 70px 0px;
+}
+
+.container1{
+    column-count: 3;
+    column-gap: 30px;
+    column-rule: 3px solid #b8b4af;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: left;
+    padding: 0px 0px 0px 20px;
+}
+
+.span1{
+    font-size: 150%;
+    color: black;
+}
+
+h2{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.container2{
+    padding: 10px;
+    columns: 3;
+    column-gap: 30px;
+    column-rule: 3px solid #b8b4af;
+    text-align: left;
+}
+
+.container3{
+    column-count: 3;
+    column-gap: 30px;
+    column-rule: 3px solid #b8b4af;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: left;
+    padding: 0px 10px 10px 20px;
+}
+
+.heading{
+    padding: 0px 0px 0px 40px;
+}
+
+.container4{
+    column-count: 2;
+    column-gap: 30px;
+    column-rule: 3px solid #b8b4af;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: left;
+    padding: 0px 0px 0px 30px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 1025px) {
+    body {
+        font-size: 18px;
+    }
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+}
+
